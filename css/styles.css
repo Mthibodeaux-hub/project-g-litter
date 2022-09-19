@@ -577,6 +577,22 @@ footer #footer-bottom {
     margin: 20px  0;
 }
 
+@media only screen and (max-width: 768px)  {
+    .footer-item {
+        width: 100%;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .footer-item ul li {
+        text-align: center;
+    }
+
+    footer #logo-img {
+        width: 60%;
+    }
+}
+
 
 
 
