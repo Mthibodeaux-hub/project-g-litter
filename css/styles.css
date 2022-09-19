@@ -112,6 +112,7 @@ nav li a {
     width: 55%;
     height: 30.556rem;
     background-color: #3BB2BF;
+    background-image: url('../images/banneralt.png');
     background-repeat: no-repeat;
     background-size: cover;
     clear: both;
