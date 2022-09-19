@@ -1,0 +1,629 @@
+html, body {
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /*    ABOVE BANNER
+*/
+
+#sale {
+    display: flex;
+    position:  relative;
+    justify-content: center;
+    align-content: center;
+    background-color: #3bb2bf;
+    width: 100%;
+    height: 1.333rem;
+    z-index: 2;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#sale span {
+    color: white;
+    font-weight: bold;
+    padding: 0.167rem;
+}
+
+  /*    NAVBAR & HEADER
+*/
+
+#navbar {
+    display: flex;
+    z-index: 1;
+    height: 5.833rem;
+    position: fixed;
+    top: -24px;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-top: 3rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 1px solid #e9e9e9;
+    background-color: white;
+}
+
+#logo a{
+  order: 1;
+  align-self: center;
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #627678;
+  text-decoration: none;
+}
+
+#logo a span {
+    color: #3BB2BF;  
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 3.778rem;
+}
+
+nav ul {
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+nav li {
+    padding: 0.111rem 0.278rem;
+    align-self: center;
+}
+
+nav li a {
+    color: #d98977;  
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1111111111111112rem;
+}
+
+  /*    BANNER, JUMBOTRON INFO BOXES (ICONS), BETWEEN HEADER AND MAIN
+*/
+
+#banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 33.333rem; 
+    padding-top: 4.722rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 1.667rem;
+    clear: both;
+}
+
+#jumbotron {
+  width: 40%;
+  margin-left: 2rem;
+  height: auto;
+  clear: both;
+}
+
+#image {
+    width: 55%;
+    height: 30.556rem;
+    background-image: url('../Images/banneralt.png');
+    background-color: #3BB2BF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+}
+
+#image img{
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    #image {
+        width: 100%;
+        height: 22.222rem;
+    }
+
+    #jumbotron {
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #image {
+        width: 100%;
+        height: 16.667rem;
+
+
+    }
+    #jumbotron {
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 0.444rem 0;
+    display: inline-block;
+    border: 1px solid #F2A74B;;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    background-color: #F2A74B;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  input[type=submit]:active, input[type=text]:active  {
+    border: 2px solid #3BB2BF;
+  }
+
+#info {
+    width: 100%;
+    min-height: 250px;
+    overflow: hidden;
+    padding: 0.556rem 5% 1.667rem 5%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#card-holder {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card {
+    width: 13.889rem;
+    overflow: hidden;
+}
+
+.card img {
+    display: block;
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card h4 {
+    text-align: center;
+    padding: 0.556rem 0;
+}
+
+@media screen and (max-width: 768px)  {
+    .card {
+        width: 75%;
+    }
+}
+
+  /*    MAIN -----------
+*/
+  /*    MAIN - MISSION
+*/
+
+#mission {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 1.667rem 5%;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+#mission-img {
+  width: 400px;
+}
+ 
+#mission #promise {
+  width:  1000px;
+}
+
+#mission img {
+    width: 100%;
+    margin-right: 2%;
+}
+
+#mission h2 {
+    text-align: center;
+}
+
+#mission p {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    font-weight: 400;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px)  {
+    #mission {
+        font-size: 1rem ;
+    }
+}
+
+  /*    MAIN - PRODUCTS
+*/
+
+#products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.667rem 5%;
+    min-height: 38.889rem;
+    background-color: #F2CD5E;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 41.667rem;
+    background-color: white;
+    border-radius: 0.556rem;
+    height: auto;
+    padding: 1.111rem;
+    margin: 1.111rem 2.222rem;
+
+}
+
+#single-product {
+  
+}
+
+.product .pitch {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+   width: 100%;
+
+}
+
+.product ul li {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #627678;
+    font-family: 'Raleway', sans-serif;
+}
+
+.product .product-img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.product-img img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0.556rem;
+    border-top-right-radius: 0.556rem;
+    margin-bottom: 0.556rem;
+}
+
+@media screen and (max-width: 768px) {
+    #products {
+        padding: 1.667rem 2%;
+    }
+}
+.special {
+    font-size: 1.5rem;
+}
+
+  /*    MAIN - REVIEWS
+*/
+
+#reviews {
+    padding: 30px 5%;
+    min-height: 300px;
+}
+
+#reviews h2 {
+    margin-bottom: 2.5rem;
+}
+
+#reviews-holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    width: 250px;
+    margin: 10px 40px;
+    color: #627678;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    padding: 5px 15px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.stars {
+    width: 85%;
+    clear: both;
+}
+
+.name-bubble {
+  background-color: #3BB2BF;
+  color: #fff;
+  border-radius: 100%;
+  padding: 0.444rem 0.833rem;
+  margin-right: 0.222rem;
+}
+
+  /*    MAIN - TEAM
+*/
+
+#team {
+    display: block;
+    position: relative;
+    padding: 1.667rem 5%;
+    min-height: 27.778rem;
+    background-color: #F2A74B;
+}
+
+#team h2 {
+    margin-bottom: 2.222rem;
+}
+
+#emp-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.emp-img-holder {
+    width: 13.889rem;
+    height: 13.889rem;
+    border-radius: 50%;
+    border: 6px solid #3BB2BF;
+    overflow: hidden;
+    margin: 0 2.5rem;
+}
+
+.emp-img {
+    width: 110%;
+    height: auto;
+}
+
+
+.employee-card h4{
+  font-size: 1rem;
+  padding-top: 0.833rem;
+  padding-bottom: 0.556rem;
+}
+
+@media screen and (max-width: 768px)  {
+     .employee-card {
+        width: 100%;
+        margin-bottom: 40px;;
+     }
+     .emp-img-holder {
+        width: 16.667rem;
+        height: 16.667rem;
+        margin: 0 auto;
+     }
+}
+
+  /*    MAIN - FEATURED
+*/
+
+#featured {
+    padding: 1.667rem 5%;
+    min-height: 16.667rem;
+}
+
+#featured h2 {
+    margin-bottom: 2.222rem;
+}
+
+#media {
+    margin: 0 auto;
+}
+
+#media-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#media #media-links .brands {
+    width: 11.111rem;
+    height: 11.111rem;
+    border: 1px solid #3BB2BF;
+    margin: 2.222rem;
+    overflow: hidden;
+}
+
+#media-links .brands img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px)  {
+
+    #media #media-links .brands {
+        width: 300px;
+        height: 300px;
+    }
+
+    #featured {
+        padding: 1.667rem 0;
+    }
+
+    #media {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+  /*   FOOTER ----------
+*/
+
+footer{
+    background-color: #3BB2BF;
+    min-height: 27.778rem;
+    padding: 1.667rem 5%;
+}
+
+footer #logo-img {
+    opacity: 0.2;
+    width: 100%;
+    height: auto;
+}
+
+footer #footer-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer #footer-menu .footer-item {
+    width:  180px;
+    margin: 20px 40px;
+}
+
+footer #footer-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-item hr {
+  border: 1px solid #F2CD5E;
+}
+
+.footer-item h3 {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+
+.footer-item {
+ min-width: 13.889rem;
+ margin: 5px 1.667rem;
+}
+
+.footer-item ul li {
+    text-align: left;
+    color: #fff;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    line-height: .875rem;
+    padding-bottom: 0.833rem;
+}
+
+ /*   FOOTER DISCLAIMER
+*/
+
+#disclaimer {
+    display: block;
+    width: 100%;
+    min-height: 8.333rem;
+    text-align: center;
+    background-color: #9CD9D9;
+    margin: 1.111rem auto 0 auto;
+    color: #000;
+    padding: 1.111rem 0.556rem;
+  }
+
+  /*   FOOTER CREDITS
+*/
+#footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#credits {
+    font-family: 'Raleway', sans-serif;
+    margin: 20px  0;
+}
+
+
+
+
+
+
+/*Custom Helper Classes*/
+
+.bold {
+    font-weight: 900;
+    font-weight: bold;
+}
+
+.black {
+    font-weight: 900;
+}
+
+.white {
+    color: #fff;
+}
+
+.italic {
+  font-style: italic; 
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.code {
+    font-family: 'Open Sans', Courier, monospace;
+    font-weight: 300;
+    font-size: 0.778rem;
+}
+
+.blu-button {
+    font-family:'Open Sans', sans-serif;
+    font-size: 1rem;
+    background-color: #3bb2bf;
+    border: 2px solid #3bb2bf;
+    border-radius: 2.778rem;
+    padding: 0.278rem 0.556rem;
+    color: #fff;
+    margin: 1.111rem 0;
+ 
+}
+
+.blu-button:hover {
+    background-color: #F2A74B;
+    border: 2px solid #F2A74B;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+
