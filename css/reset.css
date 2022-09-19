@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+  }
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 1rem;
+	font-weight: 900;
+  }
+
+  h2 {
+    display: block;
+    font-size: 1.778rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    display: block;
+    font-size: 1.556rem;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    display: block;
+    font-size: 1.333rem;
+    margin-bottom: 1rem;
+  }
+
+  h5 {    
+    display: block;
+    font-size: 0.889;
+    margin-bottom: 1rem;
+  }
+
+  h6 {
+    display: block;
+    font-size: 0.778rem;
+    margin-bottom: 1rem;
+  }
+
+
+
+p {
+	margin-bottom: 1rem;
+	display: block;
+	line-height: 1.6;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul li {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1rem;
+  padding-bottom: 10px;
+}
+
+form label {
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #F2A74B;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3BB2BF;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #F2A74B;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+/*color pallate*/
+
+/* Color Theme Swatches in Hex */
+.lightTeal { color: #3BB2BF; }
+.sky { color: #9CD9D9; }
+.sunshine { color: #F2CD5E; }
+.tangerine { color: #F2A74B; }
+.prawn { color: #D98977; }
+.drkTealGray {
+    color: #627678;
+}
+
+/* Color Theme Swatches in HSLA */
+.color-theme_Pink-Groovy-Here-Comes-The-Sun-Sticker-by-designxmad-1-hsla { color: hsla(185, 52, 49, 1); }
+.color-theme_Pink-Groovy-Here-Comes-The-Sun-Sticker-by-designxmad-2-hsla { color: hsla(180, 44, 73, 1); }
+.color-theme_Pink-Groovy-Here-Comes-The-Sun-Sticker-by-designxmad-3-hsla { color: hsla(45, 85, 65, 1); }
+.color-theme_Pink-Groovy-Here-Comes-The-Sun-Sticker-by-designxmad-4-hsla { color: hsla(33, 86, 62, 1); }
+.color-theme_Pink-Groovy-Here-Comes-The-Sun-Sticker-by-designxmad-5-hsla { color: hsla(11, 56, 65, 1); }
+
+
+/* {
+    border: 0.6px solid red !important;
+}*/
