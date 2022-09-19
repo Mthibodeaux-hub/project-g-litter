@@ -412,6 +412,12 @@ input[type=text], input[type=submit] {
   padding-bottom: 0.556rem;
 }
 
+.employee-card p {
+  font-weight: 300; 
+  font-size: 1rem;
+  color: white;
+}
+
 @media screen and (max-width: 768px)  {
      .employee-card {
         width: 100%;
@@ -422,6 +428,10 @@ input[type=text], input[type=submit] {
         height: 16.667rem;
         margin: 0 auto;
      }
+}
+
+.draven {
+    width: 180%;
 }
 
   /*    MAIN - FEATURED
@@ -624,6 +634,9 @@ footer #footer-bottom {
 .inline-block {
     display: inline-block;
 }
+
+
+
 
 
 
