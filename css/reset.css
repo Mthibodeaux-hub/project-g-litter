@@ -167,3 +167,12 @@ input[type=number] {
 /* {
     border: 0.6px solid red !important;
 }*/
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
